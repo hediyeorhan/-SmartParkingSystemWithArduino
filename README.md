@@ -12,11 +12,11 @@ Proje, Arduino UNO [1] kartı ile geliştirilmiş bir gömülü sistem çalışm
 
 
 
-2.	PROJEDE KULLANILAN DONANIM VE YAZILIMLAR
+<h2> 2.	PROJEDE KULLANILAN DONANIM VE YAZILIMLAR </h2>
 
-2.1.	  PROJEDE KULLANILAN DONANIMLAR VE TEKNİK ÖZELLİKLERİ
+<h3> 2.1.	  PROJEDE KULLANILAN DONANIMLAR VE TEKNİK ÖZELLİKLERİ </h3>
 
-2.1.1.  ARDUINO UNO
+<h4> 2.1.1.  ARDUINO UNO </h4>
 
 Arduino kartları arasında sıklıkla kullanılan kartlardan biridir. Bir sisteme entegre edilmesi kolay olduğu için pek çok kullanım alanları vardır. Akıllı ev sistemleri, robot sistemleri gibi gelişmiş sistemlerde kullanılabilir. Onun haricinde okul projelerinde bireysel küçük çaplı projelerde de kullanım kolaylığı açısından tercih edilmektedir. Elektronik devrelerin kontrol edilmesi ve çalıştırılmasını sağlar [3].
 •	Dijital çıkış pini sayısı : 14
@@ -30,7 +30,7 @@ Arduino kartları arasında sıklıkla kullanılan kartlardan biridir. Bir siste
 •	I/O için akım : 40 mA
 •	3.3 V çıkış için akım : 50 mA
 
-2.1.2.	DUMAN - GAZ SENSÖRÜ
+<h4> 2.1.2.	DUMAN - GAZ SENSÖRÜ </h4>
 
   MQ serisi gaz sensörleri içerisinde gazı algılamaya duyarlı bir tel, ısıtıcı eleman ve bir yük direnci bulunmaktadır. Çalışma prensipleri genel olarak aynıdır. Isıtıcının etkisiyle ısınan metan gazı sensördeki telin üzerinden geçerek telin direncinin değişmesine etki eder. Analog direnç değerini, 0 ile 5V aralığına eş bir değere çevirmek için bir yük direnci kullanılır. Yük direnci pini, Arduino’nun analog giriş pinlerinden birine bağlanarak Arduino’ya bilgi aktarımı sağlanır [4].
 •	Ölçme konsantrasyonu : 300 – 10000ppm Yanıcı Gaz
@@ -39,7 +39,7 @@ Arduino kartları arasında sıklıkla kullanılan kartlardan biridir. Bir siste
 •	Yük direnci : Ayarlanabilir
 •	Isıtıcı güç sarfiyatı : < 900mW
 
-2.1.3.	 DC FAN 
+<h4> 2.1.3.	 DC FAN  </h4>
 
 DC fan, kurulan sistemi soğutmakta kullanılmaktadır. Projede belirlenen şartlar doğrultusunda ya da sürekli olarak çalıştırılabilir.
 
@@ -50,7 +50,7 @@ DC fan, kurulan sistemi soğutmakta kullanılmaktadır. Projede belirlenen şart
 •	Kablo sayısı : 2
 •	Boyutlar : 120x120x25mm
 
-2.1.4.	 BUZZER
+<h4> 2.1.4.	 BUZZER </h4>
 
 Geniş alanlara ses sinyalleri yaymaktadır. Projeye göre istenilen şartlar sağlandığında ses sinyalleri ile uyarı vermektedir. Alarm işlevi görmektedir [5].
 •	Maksimum akım : 30 mA
@@ -61,7 +61,7 @@ Geniş alanlara ses sinyalleri yaymaktadır. Projeye göre istenilen şartlar sa
 
 
 
-2.1.5.	 LED
+<h4> 2.1.5.	 LED </h4>
 
 Elektrik enerjisini ışığa dönüştüren yarı iletken bir devre elemanıdır. Belirli miktarda voltaj verildiğinde etrafa ışık saçmaktadırlar. Projede sarı, yeşil ve kırmızı renkte ledler kullanılmıştır.
 •	Boyut : 5 mm
@@ -69,11 +69,11 @@ Elektrik enerjisini ışığa dönüştüren yarı iletken bir devre elemanıdı
 •	Önerilen kullanım akımı : 16 - 18 mA
 •	Maksimum akım : 20 mA
 
-2.1.6.	 JUMPER KABLO
+<h4> 2.1.6.	 JUMPER KABLO </h4>
 
 Arduino ve breadboard arasında bağlantı yapılmasını sağlar. Örnek olarak projede kullanım alanlarından biri; arduino üzerinden gelen 5V, jumper kablolar ile breadboard üzerine aktarılmıştır ve 5V pini bu şekilde çoğaltılmıştır.
 
-2.1.7.	 BREADBOARD
+<h4> 2.1.7.	 BREADBOARD </h4>
 
 
 Teknik terim olarak devre tahtası denilebilir. Üzerine sensör bağlanarak arduino kartı ile sensörün bağlantısının sağlanmasında kullanılmıştır.
@@ -83,30 +83,12 @@ Teknik terim olarak devre tahtası denilebilir. Üzerine sensör bağlanarak ard
 
 
 
-
-
-
-
-2.2.	PROJEDE KULLANILAN YAZILIMLAR
+<h3> 2.2.	PROJEDE KULLANILAN YAZILIMLAR </h3>
 Projede kullanılan arduino kodları Arduino IDE [6] ortamında yazılmıştır. Arduino IDE, Arduino için entegre geliştirme ortamıdır. C ve C++ programlama dilleri ile yazılmış bir platformlar arası uygulamadır. Arduino uyumlu kartlara program yazmak ve yüklemek için kullanılır. Kullanıcıya kullanım kolaylığı sağlamak amacıyla C# programlama dili ile Visual Studio ortamında bir ara yüz geliştirilmiştir. Geliştirilen ara yüz ile arduino bağlantısı sağlanmıştır ve kullanıcı ara yüz üzerinden sistemi kontrol etmektedir. Sistemde bulunan verileri kayıt altına almak için Microsoft Sql Server veri tabanı kullanılmıştır. Oluşturulan ara yüz dosyası içerisinde sql sorguları ile veri tabanı bağlantısı sağlanmıştır. Sistemde bulunan veriler veri tabanına kayıt edilmiştir.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3.	PROJENİN YAPIM AŞAMALARI
+<h2> 3.	PROJENİN YAPIM AŞAMALARI </h2>
 Projenin planlanması için olarak bir akış şeması oluşturulmuştur. Projedeki kodların çalışma mantığı ve sırası Şekil 2’ de akış şemasında görülmektedir.
 
  
@@ -181,7 +163,7 @@ Projenin çalışma aşamasından bazı görseller aşağıda görülmektedir:
 Şekil 16: İstenilen şartlara göre donanımın çalışması
 
 
-KAYNAKÇA
+<h2> KAYNAKÇA </h2>
 [1]	Arduino Datasheet. Available: https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf
 
 [2]	MQ-2 Sensör Datasheet. Available: https://www.mouser.com/datasheet/2/321/605-00008-MQ-2-Datasheet-370464.pdf
