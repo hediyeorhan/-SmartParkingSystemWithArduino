@@ -101,6 +101,7 @@ Projenin planlanması için olarak bir akış şeması oluşturulmuştur. Projed
 Projede öncelikle arduino kodlarının akışı planlanmıştır ve arduino kodları yazılmıştır. Arduino kodunda duman sensöründen gelen değerin iki saniye aralıklarla okunması sağlanmıştır. Duman sensörü analog girişten değer okumaktadır. İki saniye aralıklarla değer okunması için arduino koduna bir timer eklenmiştir. Şekil 3’ te gerekli timer ayarları ve iki saniye aralıklarla değer okunması görülmektedir. Sensörden okunan değer kod içerisinde belirlenen değerden fazla olursa buzzer tetiklenmektedir ve uyarı vermektedir.
  
  ![image](https://user-images.githubusercontent.com/59260491/212046703-94659d06-3899-4c2a-9dae-8a2cc5caf180.png)
+ 
 ![image](https://user-images.githubusercontent.com/59260491/212046736-b519d2ac-21ea-4372-8420-8c704b0b923b.png)
  
 Şekil 3: Timer ile iki saniye aralıklarla değer okunması
