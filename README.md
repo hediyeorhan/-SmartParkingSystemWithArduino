@@ -1,6 +1,6 @@
 #  SmartParkingSystemWithArduino
  
-1.	PROJE KONUSU VE HEDEFİ
+<h2> 1.	PROJE KONUSU VE HEDEFİ </h2>
 Proje, Arduino UNO [1] kartı ile geliştirilmiş bir gömülü sistem çalışmasıdır. Projenin konusu kapalı otopark sistemidir. Projede araç ekleme ve silme, yangın sistemi, havalandırma sistemi ve aydınlatma sistemi bulunmaktadır. Projenin hedefi otopark kapasitesi kadar araç ekleyebilme, araç silebilme, yangın sistemi kontrolünü sağlama, katlarda araç olması durumunda aydınlatma ve havalandırma sistemini çalıştırmaktır. Arduino UNO kartına bağlı duman sensörü MQ-2 [2] ile ortamdaki gaz durumu kontrol edilmektedir. Sensörden istenilen değerin üzerinde bir değer okunduğunda sistemde bulunan buzzer ile sesli uyarı verilmektedir. Ayrıca tasarlanan ara yüz ekranında da kullanıcı uyarılmaktadır. Tasarlanan ara yüz ekranından kullanıcı araç ekleme ve silme yapabilmektedir. Otopark kapasitesi dolduğunda ara yüz kullanıcının araç eklemesine izin vermemektedir. Otoparkta toplamda iki kat bulunmaktadır. Her kat için ayrı aydınlatma ve havalandırma sistemi tasarlanmıştır. Mevcut katta en az bir araç bulunuyorsa o katın aydınlatma sistemi ve havalandırma sistemi çalışmaktadır. Araç sayısının anlık durumu ile duman sensöründen okunan veriler tarih ve saat bilgileriyle birlikte veri tabanında tutulmaktadır. Şekil 1’ de proje için oluşturulan donanım ve yazılım görülmektedir.
 
  	 
